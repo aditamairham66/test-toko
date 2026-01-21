@@ -72,6 +72,13 @@ Jalankan server pengembangan Laravel dengan perintah berikut:
 php artisan serve
 ```
 
+### 5. Menjalankan Unit Test
+Jalankan server pengembangan Laravel dengan perintah berikut:
+
+```bash
+php artisan test
+```
+
 Sekarang kamu bisa mengakses aplikasi di `http://localhost:8000`.
 
 ## Strukur Direktori
@@ -80,6 +87,7 @@ Beberapa direktori penting dalam proyek ini adalah:
 - `resources/views`: Direktori untuk file blade Laravel.
 - `routes`: Direktori untuk file rute Laravel.
 - `database/migrations`: Direktori untuk file migrasi database.
+- `tests`: Direktori untuk file unit test.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
